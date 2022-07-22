@@ -70,9 +70,9 @@ def main_apv():
     except IOError:
         os.system('clear')
         print(logo)
-        print 40 * '-'
+        print ('40 * '-'
         print '           YOUR KEY IS NOT APPROVEL '
-        print 40 * '-'
+        print ('40 * '-'
         print ''
         print '           THIS IS YOUR KEY BRO'
         print ''
@@ -92,9 +92,9 @@ def main_apv():
     else:
         os.system('clear')
         print(logo)
-        print 40 * '-'
+        print('40 * '-'
         print '          YOUR KEY IS NOT APPROVEL '
-        print 40 * '-'
+        print('40 * '-'
         print '          THIS IS YOUR KEY BRO'
         print ''
         print '          YOUR KEY : ' + key1
@@ -128,7 +128,7 @@ def main_system():
     os.system('clear')
     print(logo)
     print ''
-    print 39 * '~'
+    print('39 * '~'
     print '\x1b[1;92m[1]   James Cloning      \x1b[1;92m (Bypass)'
     print '\x1b[1;92m[2]   Public Cloning      \x1b[1;92m(Login)'
     print '\x1b[1;91m[3]   Random Cloning     \x1b[1;92m (No Login)'
@@ -137,9 +137,9 @@ def main_system():
     print '\x1b[1;94m[6]   Check Subscription '
     print '\x1b[1;95m[7]   Update Tools'
     print '\x1b[1;96m[8]   For Any Help Massage WhatsApp'
-    print 43 * '~'
+    print('43 * '~'
     print '\x1b[1;92m[*]\x1b[1;95m For Need Any Help Type 8 And \x1b[1;92mWhatsApp Me  '
-    print 43 * '~'
+    print('43 * '~'
     main_input()
 
 
