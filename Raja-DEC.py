@@ -70,9 +70,7 @@ def main_apv():
     except IOError:
         os.system('clear')
         print(logo)
-        print ('40 * '-'
         print '           YOUR KEY IS NOT APPROVEL '
-        print ('40 * '-'
         print ''
         print '           THIS IS YOUR KEY BRO'
         print ''
@@ -92,9 +90,7 @@ def main_apv():
     else:
         os.system('clear')
         print(logo)
-        print('40 * '-'
         print '          YOUR KEY IS NOT APPROVEL '
-        print('40 * '-'
         print '          THIS IS YOUR KEY BRO'
         print ''
         print '          YOUR KEY : ' + key1
@@ -292,12 +288,9 @@ def numcloning():
     p = ThreadPool(30)
     p.map(main, ra)
     print '\x1b[1;97m'
-    print 40 * '-'
     print '[!] Cloning Complete Been Completed ........'
-    print 40 * '-'
     print '[!] Total Ok Ids : ' + str(len(oks))
     print '[!] Total Cp Ids : ' + str(len(cps))
-    print 40 * '-'
     print ''
     raw_input(' Press Enter To Back ')
     main_system()
@@ -314,11 +307,9 @@ def fb_menu():
         1
         os.system('clear')
         print(logo)
-        print 39 * '-'
         print '\x1b[1;92m\n[1] Login With Token'
         print '\x1b[1;93m\n[0] Back'
-        print 39 * '-'
-        pp = raw_input('\x1b[1;94m\nSelect :\x1b[1;91m ')
+         pp = raw_input('\x1b[1;94m\nSelect :\x1b[1;91m ')
         if pp == '1':
             os.system('clear')
             print(logo)
@@ -359,11 +350,9 @@ def fb_menu():
     os.system('rm -rf newlinks.txt')
     print(logo)
     print ''
-    print 39 * '-'
     print '\x1b[1;92m[1] Public Cloning Method (1)'
     print '\x1b[1;92m[2] Public Cloning Method (2)'
     print '\x1b[1;91m[0] Back '
-    print 39 * '-'
     cz = raw_input('[!] Select : ')
     if cz == '1':
         print ''
@@ -1247,12 +1236,9 @@ def xokpauto():
     p = ThreadPool(30)
     p.map(main, idx)
     print '\x1b[1;97m'
-    print 39 * '-'
     print '[!] cloning complete result ........'
-    print 39 * '-'
     print '[!] total ok ids : ' + str(len(oks))
     print '[!] total cp ids : ' + str(len(cps))
-    print 39 * '-'
     print ''
     raw_input(' Press enter to back ')
     fb_menu()
@@ -1758,12 +1744,9 @@ def xokp():
     p = ThreadPool(30)
     p.map(main, idx)
     print '\x1b[1;97m'
-    print 39 * '-'
     print '[!] Cloning Complete Result ........'
-    print 39 * '-'
     print '[!] Total Ok Ids : ' + str(len(oks))
     print '[!] Total Cp Ids :' + str(len(cps))
-    print 39 * '-'
     print ''
     raw_input(' Press Enter To Back ')
     fb_menu()
@@ -2269,12 +2252,9 @@ def xokp():
     p = ThreadPool(30)
     p.map(main, idx)
     print '\x1b[1;97m'
-    print 39 * '-'
     print '[!] cloning complete result ........'
-    print 39 * '-'
     print '[!] Total Ok Ids : ' + str(len(oks))
     print '[!] Total Cp Ids : ' + str(len(cps))
-    print 39 * '-'
     print ''
     raw_input(' Press Enter To Back ')
     fb_menu()
@@ -2790,12 +2770,9 @@ def xoknp():
     p = ThreadPool(30)
     p.map(main, idx)
     print '\x1b[1;97m'
-    print 39 * '-'
     print '[!] cloning complete result ........'
-    print 39 * '-'
     print '[!] total ok ids : ' + str(len(oks))
     print '[!] total cp ids : ' + str(len(cps))
-    print 39 * '-'
     print ''
     raw_input(' Press enter to back ')
     fb_menu()
@@ -3001,12 +2978,9 @@ def n_p_pass():
     p = ThreadPool(30)
     p.map(main, idx)
     print '\x1b[1;97m'
-    print 39 * '-'
     print '[!] cloning complete result ........'
-    print 39 * '-'
     print '[!] total ok ids : ' + str(len(oks))
     print '[!] total cp ids : ' + str(len(cps))
-    print 39 * '-'
     print ''
     raw_input(' Press enter to back ')
     fb_menu()
@@ -3211,12 +3185,9 @@ def p_p_pass():
     p = ThreadPool(30)
     p.map(main, idx)
     print '\x1b[1;97m'
-    print 39 * '-'
     print '[!] Cloning Complete Result ........'
-    print 39 * '-'
     print '[!] Total Ok Ids: ' + str(len(oks))
     print '[!] Total Cp Ids : ' + str(len(cps))
-    print 39 * '-'
     print ''
     raw_input(' Press Enter To Back')
     fb_menu()
@@ -3353,12 +3324,9 @@ def c_f_p_pass():
     p = ThreadPool(30)
     p.map(main, idx)
     print '\x1b[1;97m'
-    print 39 * '-'
     print '[!] cloning complete result ........'
-    print 39 * '-'
     print '[!] total ok ids : ' + str(len(oks))
     print '[!] total cp ids : ' + str(len(cps))
-    print 39 * '-'
     print ''
     raw_input(' Press enter to back ')
     main_system()
@@ -3556,12 +3524,9 @@ def fileauto():
     p = ThreadPool(30)
     p.map(main, idx)
     print '\x1b[1;97m'
-    print 39 * '-'
     print '[!] Cloning Complete Result ........'
-    print 39 * '-'
     print '[!] total ok ids : ' + str(len(oks))
     print '[!] total cp ids : ' + str(len(cps))
-    print 39 * '-'
     print ''
     raw_input(' Press enter to back ')
     main_system()
@@ -3771,12 +3736,9 @@ def n_f_p_pass():
     p = ThreadPool(30)
     p.map(main, idx)
     print '\x1b[1;97m'
-    print 39 * '-'
     print '[!] Cloning Complete Result ........'
-    print 39 * '-'
     print '[!] Total Ok Ids : ' + str(len(oks))
     print '[!] Total Cp Ids: ' + str(len(cps))
-    print 39 * '-'
     print ''
     raw_input(' Press Enter To Back ')
     main_system()
@@ -4001,12 +3963,9 @@ def f_p_pass():
     p = ThreadPool(30)
     p.map(main, idx)
     print '\x1b[1;97m'
-    print 39 * '-'
     print '[!] Cloning Complete Result ........'
-    print 39 * '-'
     print '[!] Total OK IDS : ' + str(len(oks))
     print '[!] Total CP IDS:' + str(len(cps))
-    print 39 * '-'
     print ''
     raw_input(' Press Enter To Back ')
     fb_menu()
